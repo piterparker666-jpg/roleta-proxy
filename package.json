@@ -1,12 +1,13 @@
 {
   "name": "roleta-proxy",
   "version": "1.0.0",
+  "description": "Proxy da Roleta Brasileira",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
-  "engines": {
-    "node": ">=18"
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
   }
 }
